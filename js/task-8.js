@@ -11,7 +11,7 @@ formRef.addEventListener("submit", (event) => {
     };
 
     if (email.value === "" || password.value === "") {
-        alert("Всі поля повинні бути заповнені!");
+        alert("Заполніть всі поля");
     } else {
         console.log(data);
         formRef.reset();
